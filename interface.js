@@ -3,6 +3,20 @@ abi=[
 	{
 		"constant": true,
 		"inputs": [],
+		"name": "getMyFairy",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
 		"name": "ceoAddress",
 		"outputs": [
 			{
@@ -73,6 +87,25 @@ abi=[
 		"constant": true,
 		"inputs": [
 			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "hatcheryFairy",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
 				"name": "eth",
 				"type": "uint256"
 			},
@@ -82,6 +115,20 @@ abi=[
 			}
 		],
 		"name": "calculateEggBuy",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "fairymasterReq",
 		"outputs": [
 			{
 				"name": "",
@@ -205,20 +252,6 @@ abi=[
 		"type": "function"
 	},
 	{
-		"constant": true,
-		"inputs": [],
-		"name": "getMyFairy",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
 		"constant": false,
 		"inputs": [],
 		"name": "getFreeFairy",
@@ -244,34 +277,6 @@ abi=[
 		],
 		"payable": false,
 		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [
-			{
-				"name": "",
-				"type": "address"
-			}
-		],
-		"name": "hatcheryFairy",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": false,
-		"inputs": [],
-		"name": "becomeFairymaster",
-		"outputs": [],
-		"payable": false,
-		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
@@ -332,17 +337,12 @@ abi=[
 		"type": "function"
 	},
 	{
-		"constant": true,
+		"constant": false,
 		"inputs": [],
-		"name": "getFairymasterReq",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
+		"name": "becomeFairymaster",
+		"outputs": [],
 		"payable": false,
-		"stateMutability": "view",
+		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
@@ -367,21 +367,7 @@ abi=[
 	{
 		"constant": true,
 		"inputs": [],
-		"name": "EGGS_TO_HATCH_1FAIRY",
-		"outputs": [
-			{
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"payable": false,
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"constant": true,
-		"inputs": [],
-		"name": "fairymasterReq",
+		"name": "getFairymasterReq",
 		"outputs": [
 			{
 				"name": "",
@@ -396,6 +382,20 @@ abi=[
 		"constant": true,
 		"inputs": [],
 		"name": "STARTING_FAIRY",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "EGGS_TO_HATCH_1FAIRY",
 		"outputs": [
 			{
 				"name": "",
